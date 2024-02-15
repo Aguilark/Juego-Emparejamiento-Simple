@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#C7E7AF;
+}
+
+table{
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:5%;
+}
+
+header {
+	margin-left:38%;
+	font-size:40px;
+	color:orange;
+	font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+td, tr{
+	border-collapse:collapse;
+	border-radius:8px;
+	border:2px solid black;
+}
+
+tr{
+	width:25%;
+	height:150px;
+}
+
+td{
+	background-image:url(../img/trevol.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-bottom:125px;
+	padding-left:5px;
+
+}
+
+td:hover{
+	border-radius:2px;
+	border:2px solid green;
+	background-color:#37E9F8;
+}
+
+.error:active{
+	background-color:#fff;
+	background-image:url(../img/gameover.png);
+}
+
+#acierto:active{
+	background-color:#fff;
+	background-image:url(../img/premio.png);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#backhome {
+    color: orange;
+    text-decoration: none;
+}
+
+#backhome:hover {
+    text-decoration: underline;
+}
